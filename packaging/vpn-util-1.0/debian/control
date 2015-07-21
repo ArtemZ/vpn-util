@@ -1,0 +1,15 @@
+Source: vpn-util
+Section: misc
+Priority: optional
+Maintainer: Artem Zhirkov <az@develdynamic.com>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.4
+Homepage: https://github.com/ArtemZ/vpn-util
+#Vcs-Git: git://git.debian.org/collab-maint/vpn-util.git
+#Vcs-Browser: http://git.debian.org/?p=collab-maint/vpn-util.git;a=summary
+
+Package: vpn-util
+Architecture: all
+Depends: ${misc:Depends}, ${python:Depends}
+Description: OpenVPN connections managing utility
+ Provides a simple tool for listing, enabling and disabling OpenVPN connections
